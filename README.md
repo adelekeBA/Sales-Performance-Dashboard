@@ -1,8 +1,11 @@
 **📊 10Alytics Sales Dashboard Analysis**
 
 Project Type: Business Data Analysis & Excel Dashboard
+
 Tools Used: Microsoft Excel (Pivot Tables, Formulas, Dashboard Design)
+
 Dataset Source: Internal mock sales data (2011–2016)
+
 Skills Demonstrated: Data cleaning, data analysis, profitability analysis, dashboard creation
 
 **🔍 Project Background**
