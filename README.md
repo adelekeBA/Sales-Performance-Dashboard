@@ -1,126 +1,93 @@
-**📊 10Alytics Sales Dashboard Analysis**
+# 🛍️ Retail Sales Analysis Dashboard  
+**Client-Simulated Project | 10Alytics Business Analyst Portfolio**
 
-Project Type: Business Data Analysis & Excel Dashboard
+---
 
-Tools Used: Microsoft Excel (Pivot Tables, Formulas, Dashboard Design)
+## 📌 Executive Summary
 
-Dataset Source: Internal mock sales data (2011–2016)
+This project showcases my ability to extract business insights from transactional retail data using Microsoft Excel. As part of the 10Alytics Business Analysis track, I analysed multi-year sales data to identify revenue trends, customer segments, and product performance. The output includes a fully interactive Excel dashboard designed to support data-driven decision-making around marketing, inventory, and sales strategy.
 
-Skills Demonstrated: Data cleaning, data analysis, profitability analysis, dashboard creation
+---
 
-**🔍 Project Background**
+## 👤 My Role
 
-This project was completed as part of the 10Alytics Business Analysis learning track. The aim was to demonstrate hands-on proficiency in analyzing a large dataset of customer transactions and presenting the insights using an interactive Excel dashboard.
+As the **Business Analyst**, I independently executed the end-to-end workflow — from cleaning and structuring raw sales data, through segmentation and KPI modelling, to building a compelling Excel dashboard and delivering executive-level insights and recommendations.
 
-The dataset simulated retail sales data across several states and years, including demographic variables such as age, gender, and location, as well as transactional details like quantity, unit price, and profit margins.
+---
 
-**🗂 Dataset Overview**
+## 🔍 Context
 
-The workbook consisted of the following key sheets:
+This project was completed as part of the 10Alytics Business Analysis learning track. The aim was to demonstrate practical analytical skills by working with a large dataset of customer transactions.
 
-**1. Exercise**
-A summary table showing revenue trends from 2011 to 2016 for different product categories such as Accessories and Clothing. This provided a historical performance view, helping to identify category growth over time.
+The simulated data spanned multiple U.S. states and years, including demographic variables (age, gender, location) and transaction details (quantity, unit price, cost, profit margins).
 
-**2. Data Table**
+---
 
-The main dataset with over 34,000 sales records containing:
+## 💡 Tasks
 
-Customer Info: Age, gender, location, age group
+### ✅ Data Cleaning & Preparation
+- Cleaned and structured raw data for analysis
+- Extracted age group, gender, payment method, and other key fields
+- Converted date fields for monthly and yearly analysis
 
-Transaction Details: Product category, sub-category, quantity, unit cost, unit price
+### 📊 Exploratory Data Analysis (EDA)
+- Analysed revenue and profit trends from 2011–2016
+- Segment-wise profit by **age group** and **gender**
+- Identified high-performing **products**, **locations**, and **channels**
 
-Financial Metrics: Total cost, total revenue, and profit/loss
+### 👥 Customer & Salesperson Profiling
+- Grouped customers by age (Millennials, Adults, etc.)
+- Analysed transaction volume by **payment mode** and **salesperson performance**
 
-Sales Channel: Online vs other payment options
+### 📈 Dashboard Design & Insight Delivery
+Created a dynamic Excel dashboard visualising:
+- Total Revenue, Cost, Profit
+- MoM Profit Trends
+- Product Category Performance
+- Age Group Contribution to Profit
+- Top 10 Profitable Locations
+- Gender-based Transaction Analysis
 
-And, a filtered view of transactions handled by each specific salesperson, offering a base to create salesperson-level performance insights.
+---
 
-**EDA**
+## 📈 Key Outcomes
 
-Pivot tables and summaries, such as:
+- **Gender Profit Margin**: Male customers contributed ~4% more profit than females
+- **Millennials**: Dominated purchases, representing the top customer segment
+- **Product Performance**: Accessories and Phones had the highest profitability and MoM growth
+- **Sales Champions**: Segun and Kenny emerged as top-performing agents
+- **Channel Efficiency**: Online sales were the dominant sales channel
 
-Gender-based profit contribution
+---
 
-Total revenue and cost computations
+## 📊 Dashboard Preview
 
-Count of transactions
-This served as the analytical foundation for the dashboard.
+![Dashboard Screenshot](./RetailSale.png)
 
-**5. Dashboard**
+---
 
-The visual layer of the analysis, to host KPIs, charts, and slicers for end-user interactivity, shows the following insights:
+## 🧰 Tools & Techniques
 
-**_Total Transaction_**
+- **Microsoft Excel**
+  - Pivot Tables & Pivot Charts  
+  - Slicers & Timelines  
+  - Data Cleaning (`TRIM`, `IF`, `VLOOKUP`, `SUMIFS`)  
+  - Conditional Formatting  
+  - KPI Modelling & Dynamic Visualisation
 
-**_Total Quantity_**
+---
 
-**_Total Cost_**
+## 📎 Download the Dashboard
 
-**_Total Revenue_**
+📥 [RetailSalesDashboard.xlsx](./RetailSalesDashboard.xlsx)
 
-**_Profit/Loss_**
+---
 
-**_Trend of Profit MoM_**
+## 🧠 What I Learned
 
-**_P/L, Total Cost and Revenue by Product Categories_**
+- Applying business analysis concepts to structured sales data
+- Creating data stories from EDA and turning them into action
+- Designing dashboards that communicate insights clearly and professionally
 
-**_Profit b Age Group_**
-
-**_Top 10 Area by Profit_**
-
-
-**📈 Key Insights**
-
-Gender Contribution: Males contributed slightly more to the overall profit margin than females by 4% profit margin.
-
-Age Groups: *Millennials** appeared to dominate transactions, indicating a key customer segment.
-
-Product Performance: Accessories and Phones had consistently high transaction volumes and profitability MoM and across different age groups.
-
-Salesperson Performance: Agent Segun and Kenny were leading sales agents, based on recurring entries and high-value transactions.
-
-Channel Efficiency: Online transactions made up the majority of all sales, suggesting digital sales channels were a primary business driver.
-
-
-**⚙️ Technical Approach**
-
-Data Cleaning:
-
-Removed null values from key numeric columns
-
-Normalised date formats
-
-Created derived columns (e.g. Profit/Loss, Customer Age Group)
-
-
-**Analysis Techniques:**
-
-Pivot tables for profit breakdowns by gender, product, and year
-
-Trend comparisons across years
-
-Customer segmentation by age and location
-
-
-**Dashboard Design:**
-
-KPIs for Total Revenue, Total Cost, Profit
-
-Charts for product category performance, salesperson comparison, customer demographics
-
-Filters for interactivity (by year, gender, product, or state)
-
-
-**🧠 Lessons Learned**
-
-Data volume handling: Working with 34k+ records tested Excel’s performance limits, reinforcing the importance of clean and structured data.
-
-Dashboard clarity: Simplicity in dashboard design improves stakeholder engagement.
-
-Business storytelling: Translating numbers into insights adds real value.
-
-
-
-**🔗 Project Files**
-📄 Excel Workbook: 10Alytics Dashboard.xlsx
+---
 
